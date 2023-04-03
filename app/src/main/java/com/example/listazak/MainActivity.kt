@@ -15,37 +15,43 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val dodawanie=findViewById<RadioButton>(R.id.dodawanie)
-        val odhacznie=findViewById<RadioButton>(R.id.odhaczanie)
+        val odhaczanie=findViewById<RadioButton>(R.id.odhaczanie)
 
-        val pieczywo= findViewById<TextView>(R.id.textView)
-        pieczywo.visibility = View.GONE
-        val bagietka = findViewById<Chip>(R.id.bagietka)
-        bagietka.visibility = View.GONE
-        val croissant = findViewById<Chip>(R.id.croissant)
-        croissant.visibility = View.GONE
-        val chleb =findViewById<Chip>(R.id.chleb)
-        chleb.visibility = View.GONE
+        val wedliny= findViewById<TextView>(R.id.wedliny)
+        val warzywa= findViewById<TextView>(R.id.warzywa)
+        val pieczywo= findViewById<TextView>(R.id.pieczywo)
 
-        val wedliny= findViewById<TextView>(R.id.textView2)
-        wedliny.visibility = View.GONE
         val szynka = findViewById<Chip>(R.id.szynka)
-        szynka.visibility = View.GONE
         val salami = findViewById<Chip>(R.id.salami)
-        salami.visibility = View.GONE
         val kielbasa= findViewById<Chip>(R.id.kielbasa)
+
+        val Burak = findViewById<Chip>(R.id.Burak)
+        val Cebula= findViewById<Chip>(R.id.Cebula)
+        val Ziemniak = findViewById<Chip>(R.id.ziemniak)
+        val Salata= findViewById<Chip>(R.id.salata)
+
+        val bagietka = findViewById<Chip>(R.id.bagietka)
+        val croissant = findViewById<Chip>(R.id.croissant)
+        val chleb =findViewById<Chip>(R.id.chleb)
+
+        wedliny.visibility = View.GONE
+        warzywa.visibility = View.GONE
+        pieczywo.visibility = View.GONE
+
+        szynka.visibility = View.GONE
+        salami.visibility = View.GONE
         kielbasa.visibility = View.GONE
 
-        val warzywa= findViewById<TextView>(R.id.textView3)
-        warzywa.visibility = View.GONE
-        val Ziemniak = findViewById<Chip>(R.id.ziemniak)
         Ziemniak.visibility = View.GONE
-        val Marchewka = findViewById<Chip>(R.id.marchewka)
-        Marchewka.visibility = View.GONE
-        val Kukurydza= findViewById<Chip>(R.id.kukurydza)
-        Kukurydza.visibility = View.GONE
-        val Salata= findViewById<Chip>(R.id.salata)
+        Burak.visibility = View.GONE
+        Cebula.visibility = View.GONE
         Salata.visibility = View.GONE
 
+        bagietka.visibility = View.GONE
+        croissant.visibility = View.GONE
+        chleb.visibility = View.GONE
 
-        }
+
+
+    }
 }

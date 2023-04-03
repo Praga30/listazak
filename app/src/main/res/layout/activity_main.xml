@@ -9,8 +9,8 @@
 
     <RadioGroup
         android:id="@+id/Wybierz"
-        android:layout_width="165dp"
-        android:layout_height="105dp"
+        android:layout_width="200dp"
+        android:layout_height="95dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,11 +19,11 @@
 
         <RadioButton
             android:id="@+id/dodawanie"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:checked="false"
             android:fontFamily="casual"
-            android:text="Dodawanie"
+            android:text="Dodaj do listy"
             android:textAllCaps="true"
             android:textColor="#5e0080"
             android:textSize="20sp"
@@ -31,10 +31,10 @@
 
         <RadioButton
             android:id="@+id/odhaczanie"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:fontFamily="casual"
-            android:text="Odhaczanie"
+            android:text="Odhacz z listy"
             android:textAllCaps="true"
             android:textColor="#5e0080"
             android:textSize="20sp"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.007" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/pieczywo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -70,9 +70,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
+        app:layout_constraintVertical_bias="0.213" />
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/Pieczywo"
@@ -80,10 +81,10 @@
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988">
+        app:layout_constraintVertical_bias="0.31">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/bagietka"
@@ -114,7 +115,7 @@
     </com.google.android.material.chip.ChipGroup>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/wedliny"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -125,6 +126,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.213" />
@@ -135,7 +137,7 @@
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.982"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.306">
@@ -168,7 +170,7 @@
     </com.google.android.material.chip.ChipGroup>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/warzywa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
@@ -182,7 +184,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.465" />
+        app:layout_constraintVertical_bias="0.213" />
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/Warzywa"
@@ -193,7 +195,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649">
+        app:layout_constraintVertical_bias="0.33">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/ziemniak"
@@ -206,19 +208,19 @@
             app:closeIconVisible="false" />
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/marchewka"
+            android:id="@+id/Burak"
             android:layout_width="345px"
             android:layout_height="wrap_content"
             android:checkable="true"
-            android:text="Marchewka"
+            android:text="Burak"
             app:chipSurfaceColor="#42d100" />
 
         <com.google.android.material.chip.Chip
-            android:id="@+id/kukurydza"
+            android:id="@+id/Cebula"
             android:layout_width="345px"
             android:layout_height="wrap_content"
             android:checkable="true"
-            android:text="Kukurydza"
+            android:text="Cebula"
             app:checkedIconVisible="true"
             app:chipSurfaceColor="#42d100" />
 
